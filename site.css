@@ -1,0 +1,14 @@
+.FixHeight
+{  
+    height:25px;
+}
+
+
+.randomizeFlag,.showCountryName
+{
+    text-decoration: none;
+    background-color: rgba(98, 153, 230, 0.777);
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}

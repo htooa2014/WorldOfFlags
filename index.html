@@ -4,10 +4,40 @@
         <title>
             World of Flags
         </title>
+        <link rel="stylesheet" href="site.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="box">
-                
+        <H1>Random Flag</H1>
+        <div class="box" id="box">
+            <div class="imageDiv" id="imageDiv">
+                    <img class="image" id="image" height="150px" width="250px" >
+            </div>    
+            <div class="FixHeight">
+                <div class="countryName"       id="countryName">
+
+                </div>
+            </div> 
+            
+
+            <!-- <button id="randomizeFlag" onClick="getRandomFlag()">Randomize Flag</button> -->
+            <!-- <button id="showCountryName" onClick="showCoountryName()">Show Country Name</button> -->
+            <a href="#" class="randomizeFlag" id="randomizeFlag"  onClick="getRandomFlag()">Randomize Flag</a> |
+            <a href="#" class="showCountryName" id="showCountryName" onClick="showCoountryName()">Show Country Name</a>
+            <a href="#" class="share-btn" id="share-btn"><i class="fa fa-solid fa-share"></i></a>
         </div>
     </body>
+    <script src="site.js" ></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
 </html>
